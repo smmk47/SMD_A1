@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#c2f3f0"
+tools:context=".MainActivity19">
+
+
+<View
+    android:id="@+id/view2"
+    android:layout_width="408dp"
+    android:layout_height="616dp"
+    android:background="@drawable/camerabackground"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.533"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.0" />
+
+<TextView
+    android:id="@+id/textView61"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="50:08"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    app:layout_constraintBottom_toBottomOf="@+id/view2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.498"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/view2"
+    app:layout_constraintVertical_bias="0.127" />
+
+<View
+    android:layout_width="136dp"
+    android:layout_height="143dp"
+    android:background="@drawable/videocallview"
+    app:layout_constraintBottom_toBottomOf="@+id/view2"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.937"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="@+id/view2"
+    app:layout_constraintVertical_bias="0.955" />
+
+
+<ImageView
+    android:layout_width="49dp"
+    android:layout_height="32dp"
+    android:src="@drawable/videocam_off"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.417"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/view2"
+    app:layout_constraintVertical_bias="0.371" />
+
+
+<ImageView
+    android:layout_width="49dp"
+    android:layout_height="32dp"
+    android:src="@drawable/loop"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.578"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/view2"
+    app:layout_constraintVertical_bias="0.37" />
+
+<ImageView
+    android:layout_width="49dp"
+    android:layout_height="32dp"
+    android:src="@drawable/mic_off"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.229"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/view2"
+    app:layout_constraintVertical_bias="0.37" />
+
+<ImageView
+    android:layout_width="41dp"
+    android:layout_height="35dp"
+    android:src="@drawable/redcross"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.77"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/view2"
+    app:layout_constraintVertical_bias="0.37" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
